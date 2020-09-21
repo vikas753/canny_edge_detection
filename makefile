@@ -6,3 +6,6 @@ make: canny.c
 	 
 clean:
 	rm canny 
+
+test:
+	test -s ./canny || { echo " Canny executable doesnt exist "; exit 1; }
