@@ -1,8 +1,8 @@
 CC=gcc
 CFLAGS=-lm
 
-make: canny.c 
-     $(CC) canny.c $(CFLAGS) -o canny
+make: canny.c
+	$(CC) canny.c $(CFLAGS) -o canny
 	 
 clean:
-     rm canny 
+	rm canny 
